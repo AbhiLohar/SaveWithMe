@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Cloud Code Storage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>📁 Categories</h2>
+    <div id="categories"></div>
+  </div>
+
+  <!-- Main -->
+  <div class="main">
+    <h1>💻 Code Storage</h1>
+
+    <input id="category" placeholder="Category">
+    <input id="title" placeholder="Title">
+    <textarea id="code" placeholder="Paste code here..."></textarea>
+
+    <button onclick="saveCode()">Save</button>
+
+    <div id="output"></div>
+  </div>
+
+</div>
+
+<!-- Firebase -->
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
